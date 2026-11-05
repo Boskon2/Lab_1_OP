@@ -1,6 +1,7 @@
 'use strict';
 
 function inc(n){
-  return n + 1;
+  n+= 1;
+  return n;
 }
 module.exports = {inc};
